@@ -4,6 +4,9 @@ Portfólio pessoal desenvolvido como parte da disciplina de **Desenvolvimento e 
 
 O projeto apresenta minha trajetória acadêmica e profissional, minhas habilidades técnicas e os projetos que desenvolvi, por meio de uma interface interativa inspirada em um ambiente de desktop.
 
+## 🚀 Link do portfólio:
+https://portfolio-alexia-lovat.vercel.app/
+
 ## 🎯 Objetivo
 
 O objetivo deste projeto é desenvolver um portfólio pessoal responsivo, acessível e interativo, utilizando tecnologias modernas de desenvolvimento web.
