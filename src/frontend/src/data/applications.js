@@ -10,7 +10,6 @@ export const applications = [
 export const systemApplications = [
   { id: 'computer', title: 'Este computador', titleEn: 'This PC', icon: Monitor, subtitle: 'Bem-vinda ao meu portfólio', subtitleEn: 'Welcome to my portfolio', description: 'Explore os aplicativos da área de trabalho para conhecer minha trajetória.', descriptionEn: 'Explore the desktop apps to learn about my journey.', details: 'Use os ícones, o menu Iniciar ou a pesquisa para navegar.', detailsEn: 'Use the icons, Start menu, or search to navigate.' },
   { id: 'documents', title: 'Documentos', titleEn: 'Documents', icon: FileText, subtitle: 'Meus documentos', subtitleEn: 'My documents', description: 'Aqui ficarão documentos e materiais relacionados aos meus projetos.', descriptionEn: 'This space will hold documents and materials related to my projects.', details: 'Acesse a seção de projetos para conhecer meus trabalhos.', detailsEn: 'Open the Projects section to learn about my work.' },
-  { id: 'weather', title: 'Clima', titleEn: 'Weather', icon: CloudSun, subtitle: 'Previsão do tempo', subtitleEn: 'Weather forecast', description: 'A integração com um serviço de previsão do tempo será feita em uma próxima etapa.', descriptionEn: 'A weather service integration will be added in a later step.', details: 'A previsão será obtida de uma API pública.', detailsEn: 'The forecast will be provided by a public API.' },
 ]
 
 export const localizeApplications = (items, language) => items.map((app) => ({ ...app, title: language === 'en' ? app.titleEn : app.title }))
