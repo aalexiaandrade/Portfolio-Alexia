@@ -38,13 +38,13 @@ A interface simula um desktop, permitindo navegar pelas informações por meio d
 
 ## ✨ Protótipos
 
-![tela inicial](public/prototipos/tela-inicial.PNG)
-![sobre mim](public/prototipos/sobre-mim.PNG)
-![projetos](public/prototipos/projetos.PNG)
-![experiencias](public/prototipos/experiencias.PNG)
-![documentos](public/prototipos/documentos.PNG)
-![contato](public/prototipos/contato.PNG)
-![celular](public/prototipos/celular.PNG)
+![tela inicial](src/frontend/public/prototipos/tela-inicial.PNG)
+![sobre mim](src/frontend/public/prototipos/sobre-mim.PNG)
+![projetos](src/frontend/public/prototipos/projetos.PNG)
+![experiencias](src/frontend/public/prototipos/experiencias.PNG)
+![documentos](src/frontend/public/prototipos/documentos.PNG)
+![contato](src/frontend/public/prototipos/contato.PNG)
+![celular](src/frontend/public/prototipos/celular.PNG)
 
 
 ### Organização das principais pastas
