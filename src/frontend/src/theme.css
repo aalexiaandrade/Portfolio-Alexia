@@ -1,0 +1,100 @@
+/* Wallpapers responsivos e paleta azul-arroxeada.
+   Desktop: public/wallpaper.jpg
+   Celular: public/wallpaper-celular.jpg
+   Se suas imagens tiverem outras extensões, ajuste as URLs abaixo. */
+
+.portfolio-light .desktop-wallpaper-light {
+  background-color: #e9e4ff;
+  background-image:
+    linear-gradient(rgba(237, 233, 254, 0.06), rgba(237, 233, 254, 0.06)),
+    url('/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-dark .desktop-wallpaper-dark {
+  background-color: #17112d;
+  background-image:
+    linear-gradient(rgba(20, 12, 42, 0.36), rgba(20, 12, 42, 0.36)),
+    url('/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Em telas de celular, usa a versão vertical do wallpaper. */
+@media (max-width: 768px) {
+  .portfolio-light .desktop-wallpaper-light {
+    background-image:
+      linear-gradient(rgba(237, 233, 254, 0.06), rgba(237, 233, 254, 0.06)),
+      url('/wallpaper-celular.jpg');
+  }
+
+  .portfolio-dark .desktop-wallpaper-dark {
+    background-image:
+      linear-gradient(rgba(20, 12, 42, 0.36), rgba(20, 12, 42, 0.36)),
+      url('/wallpaper-celular.jpg');
+  }
+}
+
+/* Paleta de destaque: azul puxado para violeta, combinando com o wallpaper. */
+.portfolio-light [class~="text-blue-500"],
+.portfolio-light [class~="text-blue-600"],
+.portfolio-light [class~="text-indigo-600"] {
+  color: #7655d9 !important;
+}
+
+.portfolio-dark [class~="text-blue-500"],
+.portfolio-dark [class~="text-blue-600"],
+.portfolio-dark [class~="text-indigo-600"] {
+  color: #b7a3ff !important;
+}
+
+.portfolio-light [class~="bg-blue-500"],
+.portfolio-light [class~="bg-blue-600"],
+.portfolio-light [class~="bg-indigo-600"] {
+  background-color: #7655d9 !important;
+}
+
+.portfolio-dark [class~="bg-blue-500"],
+.portfolio-dark [class~="bg-blue-600"],
+.portfolio-dark [class~="bg-indigo-600"] {
+  background-color: #6546c7 !important;
+}
+
+.portfolio-light [class~="bg-blue-100"],
+.portfolio-light [class~="bg-blue-50"],
+.portfolio-light [class~="bg-indigo-100"] {
+  background-color: #eee9ff !important;
+}
+
+.portfolio-dark [class~="bg-blue-950"],
+.portfolio-dark [class~="bg-indigo-950"] {
+  background-color: #292044 !important;
+}
+
+.portfolio-light [class~="border-blue-300"],
+.portfolio-light [class~="border-blue-400"] {
+  border-color: #b7a5f5 !important;
+}
+
+.portfolio-dark [class~="border-blue-300"],
+.portfolio-dark [class~="border-blue-400"] {
+  border-color: #7966bc !important;
+}
+
+/* Estados hover para os botões que usam utilitários Tailwind. */
+.portfolio-light [class*="hover:bg-blue-"]:hover,
+.portfolio-light [class*="hover:bg-indigo-"]:hover {
+  background-color: #e7e0ff !important;
+}
+
+.portfolio-dark [class*="hover:bg-blue-"]:hover,
+.portfolio-dark [class*="hover:bg-indigo-"]:hover {
+  background-color: #332750 !important;
+}
+
+.portfolio-light [class*="hover:border-blue-"]:hover {
+  border-color: #8f75e8 !important;
+}

@@ -1,0 +1,70 @@
+
+@import "tailwindcss";
+
+:root {
+  font-family: "Segoe UI", Inter, Arial, sans-serif;
+  color: #f8fafc;
+  background: #101827;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: white;
+  background: #2563eb;
+}
+
+
+.desktop-wallpaper {
+  position: absolute;
+  inset: 0;
+  background-image: url('/src/assets/wallpaper3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.window-maximized {
+  position: fixed !important;
+  inset: 8px 8px 72px !important;
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+}
