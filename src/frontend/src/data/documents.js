@@ -6,6 +6,7 @@ export const documentFolders = [
     description: 'Cursos, certificações e formações concluídas.',
     descriptionEn: 'Courses, certifications and completed training.',
     documents: [
+      { id: 'certificado-MELHOR-TI-WEMAKESOFTWARE', name: 'Certificado de Melhor TI We Make Software', nameEn: 'We make software Certificate', description: '2026', file: 'documentos/certificados/MELHOR-TI-WEMAKESOFTWARE.pdf' },
       { id: 'certificado-data-analytics', name: 'Certificado de Data Analystics', nameEn: 'Data Analytics Certificate', description: '2025', file: 'documentos/certificados/DATA-ANALYTICS.pdf' },
       { id: 'certificado-ia-generativa', name: 'Certificado de IA Generativa', nameEn: 'AI Certificate', description: '2025', file: 'documentos/certificados/IA-GENERATIVA.pdf' },
       { id: 'certificado-estrutura-dados', name: 'Certificado de Estrutura de Dados', nameEn: 'Data Certificate', description: '2025', file: 'documentos/certificados/ESTRUTURA-DADOS.pdf' },
