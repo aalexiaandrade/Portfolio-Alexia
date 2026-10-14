@@ -36,6 +36,17 @@ A interface simula um desktop, permitindo navegar pelas informações por meio d
 | Open-Meteo | API utilizada para obter informações meteorológicas. |
 | HTML5 e CSS3 | Estrutura e estilização da aplicação web. |
 
+## ✨ Protótipos
+
+![tela inicial](public/prototipos/tela-inicial.PNG)
+![sobre mim](public/prototipos/sobre-mim.PNG)
+![projetos](public/prototipos/projetos.PNG)
+![experiencias](public/prototipos/experiencias.PNG)
+![documentos](public/prototipos/documentos.PNG)
+![contato](public/prototipos/contato.PNG)
+![celular](public/prototipos/celular.PNG)
+
+
 ### Organização das principais pastas
 
 - `src/apps/`: aplicações abertas pelas janelas do desktop.
